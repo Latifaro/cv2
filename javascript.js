@@ -11,7 +11,7 @@ function validateForm() {
     clearMessages();
     let errorFlag = false;
 
-    if (nameInput.value.length < 1) {
+    if (nameInput.value.length <1) {
         errorNodes[0].innerText = "Name cannot be blank"
         nameInput.classList.add("error-border");
         errorFlag = ture;
@@ -23,7 +23,7 @@ function validateForm() {
         errorFlag = ture;
     }
 
-    if (message.value.length < 1) {
+    if (message.value.length <1) {
         errorNodes[2].innerText = "Please enter message";
         message.classList.add("error-border");
         errorFlag = ture;
@@ -37,7 +37,7 @@ function validateForm() {
 //Clear error /succes Message
 
 function clearMessages() {
-    for (let i = 0; i < errorNodes.length; i++) {
+    for (let i = 0; i <errorNodes.length; i++) {
         errorNodes[i].innerText = "";
     }
     

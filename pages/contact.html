@@ -10,47 +10,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 
 </head>
+
 <body>
     <div class="container">
         <div class="header">
             <div class="nav">
                 <ul>
                     <li id="hem"> <a href="../index.html">hem</a></li>
-                    <li id="om mig"> <a href="../pages/about.html">Om mig</a></li>
+                    <li id="ommig"> <a href="../pages/about.html">Om mig</a></li>
                     <li id="portfolio"> <a href="../pages/portfolio.html">Portfolio</a></li>
-                    <li id="kontakt" class="active"> <a href="pages/contact.html">Kontakt</a></li>
+                    <li id="Kontakt" class="active"> <a href="pages/contact.html">Kontakt</a></li>
                 </ul>
             </div>
         </div>
         <div class="main">
 
             <section id="contact" class="section-contact">
-              
 
-                <div id="overly"> 
+
+                <div id="overly">
 
                     <form onsubmit="event.preventDefault(); validateForm()">
-                    <h2>kontackta mig</h2>
+                        <h2>kontackta mig</h2>
 
-                    <label for="name">Name</label>
-                    <input type="text" id="name" placeholder="your name">
-                    <small class="error"></small>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="your name">
+                        <small class="error"></small>
 
-                    <label for="email">Email</label>
-                    <input type="text" id="email" placeholder="your email ">
-                    <small class="error"></small>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" placeholder="your email ">
+                        <small class="error"></small>
 
-                    <label for="message">Message</label>
-                    <textarea id="message" placeholder="your message" rows="6"> </textarea>
-                    <small class="error"></small>
+                        <label for="message">Message</label>
+                        <textarea id="message" placeholder="your message" rows="6"> </textarea>
+                        <small class="error"></small>
 
-                    <div class="center">
-                        <input type="submit" value="Send Message">
-                        <p id="success"></p>
-                    </div>
+                        <div class="center">
+                            <input type="submit" value="Send Message">
+                            <p id="success"></p>
+                        </div>
 
-                </form>
+                    </form>
                 </div>
+            </section>
         </div>
     </div>
     <script src="../javascript.js"></script>

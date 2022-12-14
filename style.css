@@ -281,7 +281,7 @@ input[type="submit"] {
        
     }
 
-    .portfolio {
+    .portfolio1 {
         display: flex;
         flex-direction: row;
         margin: 20px;
@@ -291,7 +291,7 @@ input[type="submit"] {
        
     }
 
-    .portfolio .section-portfolio {
+    .portfolio1 .section-portfolio {
         opacity: 0.8;
 
     }
